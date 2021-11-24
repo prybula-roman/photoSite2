@@ -116,7 +116,8 @@ header .container {
   text-decoration: none;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
   transition-property: color;
   transition-duration: 250ms;
@@ -134,7 +135,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback:hover, .feedback:focus {
+.feedback:hover,
+.feedback:focus {
   color: #2196f3;
   transition-property: color;
   transition-duration: 250ms;
@@ -165,13 +167,15 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nvg-list__link:hover, .nvg-list__link:focus {
+.nvg-list__link:hover,
+.nvg-list__link:focus {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nvg-list__link:hover::after, .nvg-list__link:focus::after {
+.nvg-list__link:hover::after,
+.nvg-list__link:focus::after {
   opacity: 1;
   transition-property: color, opacity;
   transition-duration: 250ms;
@@ -339,7 +343,12 @@ header .container {
   min-height: 600px;
   margin: 0 auto;
   background-color: var(--color-hero-dg);
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-img.jpg);
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
 }
@@ -550,7 +559,8 @@ header .container {
   margin-top: 30px;
   word-wrap: break-word;
   background: var(--color-bg-body);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -640,7 +650,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link:hover, .social-list__link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: var(--color-link-focus);
   transition-property: background-color;
   transition-duration: 250ms;
@@ -728,7 +739,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__link:focus, .clients__link:hover {
+.clients__link:focus,
+.clients__link:hover {
   border-color: var(--color-link-focus);
   transition-property: border-color;
   transition-duration: 250ms;
@@ -789,7 +801,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__link:focus, .address__link:hover {
+.address__link:focus,
+.address__link:hover {
   color: var(--color-link-focus);
   transition-property: color;
   transition-duration: 250ms;
@@ -850,7 +863,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form__mail:hover, .footer-form__mail:focus {
+.footer-form__mail:hover,
+.footer-form__mail:focus {
   border: 1px solid var(--color-link-focus);
   transition-property: border;
   transition-duration: 250ms;
@@ -891,7 +905,8 @@ header .container {
   color: var(--color-bg-body);
 }
 
-.footer-form__btn-text:hover, .footer-form__btn-text:focus {
+.footer-form__btn-text:hover,
+.footer-form__btn-text:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -908,6 +923,13 @@ header .container {
 }
 
 /*==============portfolio=====================*/
+.prtfl-main {
+  display: block;
+  min-height: 500px;
+
+  outline: 1px #2196f3;
+}
+
 .btn-box__but {
   height: 38px;
   border-radius: 4px;
@@ -925,11 +947,13 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-box__but:hover, .btn-box__but:focus {
+.btn-box__but:hover,
+.btn-box__but:focus {
   background-color: var(--color-link-focus);
   color: var(--color-bg-body);
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border: none;
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
@@ -988,14 +1012,16 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-link:hover, .list-link:focus {
+.list-link:hover,
+.list-link:focus {
   position: absolute;
   top: 0;
   left: 0;
   background: var(--color-bg-body);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1081,7 +1107,8 @@ header .container {
   background-color: var(--color-bg-body);
 }
 
-.modal__close-btn:hover, .modal__close-btn:focus {
+.modal__close-btn:hover,
+.modal__close-btn:focus {
   border: 1px solid var(--color-link-focus);
   cursor: pointer;
   fill: var(--color-link-focus);
@@ -1177,7 +1204,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form__input:focus, .modal-form__input:hover {
+.modal-form__input:focus,
+.modal-form__input:hover {
   outline: none;
   border-color: var(--color-link-focus);
   transition-property: border-color;
@@ -1196,7 +1224,8 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form__comment:focus, .modal-form__comment:hover {
+.modal-form__comment:focus,
+.modal-form__comment:hover {
   outline: none;
   border-color: var(--color-link-focus);
   transition-property: border-color;
@@ -1272,7 +1301,8 @@ header .container {
 }
 
 .modal-form__submit {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* modal form-window */

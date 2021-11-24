@@ -18,19 +18,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./style/style.css" /> -->
+    <link rel="stylesheet" href="./sass/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
   </head>
   <body class="body">
-    <!-- <header class="header">
-     
+    <header class="header">
       <div class="container">
         <nav class="nvg header__nvg">
-        
           <a href="./index.html" class="logo header__logo"
             >Web<span class="header__logo-studio">Studio</span></a
           >
-         
+
           <ul class="nvg-list list">
             <li class="nvg-list__item">
               <a
@@ -54,7 +53,7 @@
             </li>
           </ul>
         </nav>
-       
+
         <section class="header-contacts">
           <h2 class="header-contacts__title visually-hidden">
             header-contacts-title
@@ -79,21 +78,22 @@
           </ul>
         </section>
       </div>
-    </header> -->
+    </header>
 
-    <main class="main">
-      <!-- <section class="hero section">
+    <main class="index-main">
+      <section class="hero section">
         <div class="container">
           <div class="hero__section-bg">
             <h1 class="hero__title title">
-              Эффективные решения для вашего бизнеса
+              Здесь можно написать что-нибудь на тему как будет заебись что
+              обратились к тебе
             </h1>
             <button type="button" class="hero__btn btn" data-modal-open>
               Заказать услугу
             </button>
           </div>
         </div>
-      </section> -->
+      </section>
       <section class="work-section section">
         <h2 class="section__title visually-hidden">Особенности работы</h2>
         <div class="container">
@@ -140,7 +140,7 @@
                 </p>
               </div>
             </li>
-            <li class="work-section__item">
+            <!-- <li class="work-section__item">
               <div class="work-section__icon">
                 <svg class="work-icon">
                   <use href="./images/icons/sprite.svg#icon-astronaut"></use>
@@ -155,11 +155,11 @@
                   плановых заданий.
                 </p>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
-      <section class="jobs section">
+      <!-- <section class="jobs section">
         <h2 class="section__title">Чем мы занимаемся</h2>
         <div class="container">
           <ul class="jobs__list work-section__list list">
@@ -193,8 +193,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section team">
+      </section> -->
+      <!-- <section class="section team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="list work-section__list team__list">
@@ -405,9 +405,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="clients section">
+      <!-- <section class="clients section">
         <h2 class="section__title title">Постоянные клиенты</h2>
         <div class="container">
           <ul class="clients__list">
@@ -455,9 +455,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__main">
           <div class="address-block">
@@ -534,7 +534,7 @@
             </ul>
           </div>
 
-          <div class="form-box">
+          <!-- <div class="form-box">
             <form action="POST" class="footer-form">
               <label for="footer-mail" class="footer-form__label"
                 >Подпишитесь на рассылку</label
@@ -555,10 +555,11 @@
                 <span class="footer-form__btn-text btn-text">Подписаться</span>
               </button>
             </form>
-          </div>
+          </div> -->
         </div>
-      </div> 
-    </footer>-->
+      </div>
+    </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__close-btn" data-modal-close>
@@ -654,6 +655,7 @@
         <!-- </div> -->
       </div>
     </div>
+    <script src="./js/index.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
