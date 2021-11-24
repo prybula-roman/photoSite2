@@ -1,0 +1,14 @@
+.clients__item {
+  display: flex;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767.99px) {
+    width: 210px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.99px) {
+    width: 226px;
+  }
+}

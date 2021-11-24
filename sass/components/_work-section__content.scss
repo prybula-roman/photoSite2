@@ -1,0 +1,8 @@
+.work-section__content {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+  }
+}

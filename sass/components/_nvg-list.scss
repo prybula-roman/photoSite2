@@ -1,0 +1,11 @@
+.nvg-list {
+  display: flex;
+  align-items: center;
+}
+.nvg-list__item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}

@@ -1,0 +1,21 @@
+.social-list__svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    background-color: transparent;
+    fill: var(--color-bg-body);
+    border: none;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer & {
+    fill: var(--color-bg-body);
+  }
+}

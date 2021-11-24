@@ -1,0 +1,18 @@
+.modal-form__checkbox {
+  display: block;
+  width: 16px;
+  height: 15px;
+  appearance: none;
+  border: 2px solid var(--color-text1);
+  border-radius: 1px;
+  &:focus {
+    border: 2px solid var(--color-link-focus);
+    outline: 2px solid transparent;
+  }
+
+  &:checked {
+    fill: currentColor;
+    background-color: var(--color-link-focus);
+    border: none;
+  }
+}

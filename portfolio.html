@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!--Раздел основной навигации  -->
+      <div class="container">
+        <nav class="nvg">
+          <!--- Ссылка на глав. стр. -->
+          <a href="./index.html" class="header__logo logo"
+            >Web<span class="header__logo-studio">Studio</span></a
+          >
+          <!--- Навигация на др. стр.  -->
+          <ul class="nvg-list list">
+            <li class="nvg-list__item">
+              <a href="./index.html" class="nvg-list__link link">Студия</a>
+            </li>
+            <li class="nvg-list__item">
+              <a
+                href="./portfolio.html"
+                class="nvg-list__link nvg-list__link-portfolio link"
+                >Портофолио</a
+              >
+            </li>
+            <li class="nvg-list__item">
+              <a
+                href="#contacts"
+                class="nvg-list__link nvg-list__link-contacts link"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!--- Навигация на стр. регистрации -->
+        <div class="header-contacts">
+          <ul class="contacts-list list">
+            <li class="contacts-list__item">
+              <a href="mailto:info@devstudio.com" class="link feedback">
+                <svg class="mail-icon">
+                  <use href="./images/icons/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-list__item">
+              <a href="tel:+380961111111" class="link feedback">
+                <svg class="telefon-icon">
+                  <use href="./images/icons/sprite.svg#icon-telefone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- block hero -->
+    <main class="main">
+      <section class="prtfl-content section">
+        <h1 class="visually-hidden">Портофолио</h1>
+        <div class="container">
+          <div class="section-btn">
+            <h2 class="title section-btn__title visually-hidden">
+              Основной контент
+            </h2>
+            <ul class="button-list work-section__list list">
+              <li class="button-list__item">
+                <div class="btn-box">
+                  <button type="button" class="btn-box__but btn-box__but--all">
+                    Все
+                  </button>
+                </div>
+              </li>
+              <li class="button-list__item">
+                <div class="btn-box">
+                  <button type="button" class="btn-box__but">Веб-сайты</button>
+                </div>
+              </li>
+              <li class="button-list__item">
+                <div class="btn-box">
+                  <button type="button" class="btn-box__but">Приложения</button>
+                </div>
+              </li>
+              <li class="button-list__item">
+                <div class="btn-box">
+                  <button type="button" class="btn-box__but">Дизайн</button>
+                </div>
+              </li>
+              <li class="button-list__item">
+                <div class="btn-box">
+                  <button type="button" class="btn-box__but">Маркетинг</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content-box">
+            <ul class="content-list work-section__list list">
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-0.jpg"
+                      alt="технокряк"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Технокряк</h3>
+                    <p class="list-link__content text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-1.jpg"
+                      alt="постер"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">
+                      Постер New Orlean vs Golden Star
+                    </h3>
+                    <p class="list-link__content text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-2.jpg"
+                      alt="лого seafood"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Ресторан Seafood</h3>
+                    <p class="list-link__content text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link"
+                  ><div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-3.jpg"
+                      alt="наушники"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Проект Prime</h3>
+                    <p class="list-link__content text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-4.jpg"
+                      alt="коробки"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Проект Boxes</h3>
+                    <p class="list-link__content text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link"
+                  ><div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-5.jpg"
+                      alt="монитор"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">
+                      Inspiration has no Borders
+                    </h3>
+                    <p class="list-link__content text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-6.jpg"
+                      alt="открытая книга"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">
+                      Издание Limited Edition
+                    </h3>
+                    <p class="list-link__content text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-7.jpg"
+                      alt="label tag"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Проект LAB</h3>
+                    <p class="list-link__content text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="content-list__item">
+                <a href="" class="list-link link">
+                  <div class="list-link__overflow-img">
+                    <img
+                      class="list-link__img"
+                      src="./images/portfolio/img-8.jpg"
+                      alt="notebook"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="list-link__overflow">
+                      <p class="list-link__overflow-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Deserunt mollitia quod assumenda quae ut esse
+                        doloremque. Ullam, veritatis. Repellendus, ad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-link__text">
+                    <h3 class="list-link__subtitle title">Growing Business</h3>
+                    <p class="list-link__content text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="address-block">
+            <a href="./index.html" class="footer__logo logo"
+              >Web<span class="footer__logo-studio">Studio</span></a
+            >
+
+            <address class="address" id="contacts">
+              <ul class="address__list list">
+                <li class="address__item">
+                  <a href="" class="address__link link"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a
+                    href="mailto:info@example.com"
+                    class="address__link-mail address__link link"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a
+                    href="tel:+380991111111"
+                    class="address__link-tel address__link link"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social">
+            <h2 class="footer-social__title">присоединяйтесь</h2>
+
+            <ul class="footer-social__list social-list">
+              <li class="social-list__item">
+                <a
+                  href=""
+                  class="footer__social-link social-link social-list__link"
+                >
+                  <svg class="social-list__svg">
+                    <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href=""
+                  class="footer__social-link social-link social-list__link"
+                >
+                  <svg class="social-list__svg">
+                    <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href=""
+                  class="footer__social-link social-link social-list__link"
+                >
+                  <svg class="social-list__svg">
+                    <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href=""
+                  class="footer__social-link social-link social-list__link"
+                >
+                  <svg class="social-list__svg">
+                    <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="form-box">
+            <form action="POST" class="footer-form">
+              <label for="footer-mail" class="footer-form__label"
+                >Подпишитесь на рассылку</label
+              >
+              <input
+                type="email"
+                name="mail"
+                id="footer-mail"
+                placeholder="E-mail"
+                class="footer-form__mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+              />
+              <button type="submit" class="footer-form__btn btn">
+                <svg class="footer-form__telega">
+                  <use href="./images/icons/telega.svg#icon-telega"></use>
+                </svg>
+                <span class="footer-form__btn-text">Подписаться</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

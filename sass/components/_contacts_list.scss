@@ -1,0 +1,12 @@
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.contacts-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts__title {
+  margin-bottom: 50px;
+}

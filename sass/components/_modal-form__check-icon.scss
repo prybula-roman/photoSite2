@@ -1,0 +1,13 @@
+.modal-form__check-icon {
+  fill: var(--color-bg-body);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 11px;
+  height: 8px;
+
+  .modal-form__checkbox:checked + & {
+    fill: var(--color-bg-body);
+  }
+}

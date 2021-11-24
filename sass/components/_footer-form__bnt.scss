@@ -1,0 +1,11 @@
+.footer-form__btn {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  padding-left: 29px;
+  padding-right: 28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

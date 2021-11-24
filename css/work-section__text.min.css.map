@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAC,CAClB,KAAK,CAAE,kBAAkB,CACzB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CACvB",
+    "sources": [
+        "../sass/components/work-section__text.scss"
+    ],
+    "names": [],
+    "file": "work-section__text.min.css"
+}

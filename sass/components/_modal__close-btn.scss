@@ -1,0 +1,16 @@
+.modal__close-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  border: 1px solid #afb1b8;
+  background-color: var(--color-bg-body);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--color-link-focus);
+    cursor: pointer;
+    fill: var(--color-link-focus);
+  }
+}

@@ -1,0 +1,25 @@
+.address__link {
+  font-style: normal;
+  color: var(--color-bg-body);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    color: var(--color-link-focus);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.address__link-tel,
+.address__link-mail {
+  color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

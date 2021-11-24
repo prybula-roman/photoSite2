@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,kBAAkB;EACzB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "../sass/components/work-section__text.scss"
+    ],
+    "names": [],
+    "file": "work-section__text.css"
+}
