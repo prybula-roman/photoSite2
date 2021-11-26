@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/prybula-roman/photoSite2/issues"
   },
-  "homepage": "https://github.com/prybula-roman/photoSite2#readme"
+  "homepage": "https://github.com/prybula-roman/photoSite2#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }

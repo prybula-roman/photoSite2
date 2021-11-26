@@ -19,8 +19,9 @@
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="./style/style.css" /> -->
+    <link rel="stylesheet" href="./css/gal.css" />
     <link rel="stylesheet" href="./sass/main.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
   </head>
   <body>
     <header class="header">
@@ -79,277 +80,30 @@
     <main class="prtfl-main">
       <!-- ========удалить когда не нужно-->
       <div class="prtfl-main-title">
-        <h1>
+        <h3 class="delete-h3" style="color: brown">
           Здесь можно разместить какие-нибудь фото из твоих работ или разбить на
           тематики группы работ
-        </h1>
-      </div>
-      <!-- ========== -->
-      <!-- <section class="prtfl-content section"> 
-        <h1 class="visually-hidden">Портофолио</h1>
-        <div class="container">
-          <div class="section-btn">
-            <h2 class="title section-btn__title visually-hidden">
-              Основной контент
-            </h2>
-            <ul class="button-list work-section__list list">
-              <li class="button-list__item">
-                <div class="btn-box">
-                  <button type="button" class="btn-box__but btn-box__but--all">
-                    Все
-                  </button>
-                </div>
-              </li>
-              <li class="button-list__item">
-                <div class="btn-box">
-                  <button type="button" class="btn-box__but">Веб-сайты</button>
-                </div>
-              </li>
-              <li class="button-list__item">
-                <div class="btn-box">
-                  <button type="button" class="btn-box__but">Приложения</button>
-                </div>
-              </li>
-              <li class="button-list__item">
-                <div class="btn-box">
-                  <button type="button" class="btn-box__but">Дизайн</button>
-                </div>
-              </li>
-              <li class="button-list__item">
-                <div class="btn-box">
-                  <button type="button" class="btn-box__but">Маркетинг</button>
-                </div>
-              </li>
-            </ul>
+        </h3>
+        <ul class="gallery js-gallery"></ul>
+
+        <!--
+          Модальное окно для полноразмерного изображения
+          Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
+        -->
+        <div class="lightbox js-lightbox">
+          <div class="lightbox__overlay"></div>
+
+          <div class="lightbox__content">
+            <img class="lightbox__image" src="" alt="" />
           </div>
-          <div class="content-box">
-            <ul class="content-list work-section__list list">
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-0.jpg"
-                      alt="технокряк"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Технокряк</h3>
-                    <p class="list-link__content text">Веб-сайт</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-1.jpg"
-                      alt="постер"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">
-                      Постер New Orlean vs Golden Star
-                    </h3>
-                    <p class="list-link__content text">Дизайн</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-2.jpg"
-                      alt="лого seafood"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Ресторан Seafood</h3>
-                    <p class="list-link__content text">Приложение</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link"
-                  ><div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-3.jpg"
-                      alt="наушники"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Проект Prime</h3>
-                    <p class="list-link__content text">Маркетинг</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-4.jpg"
-                      alt="коробки"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Проект Boxes</h3>
-                    <p class="list-link__content text">Приложение</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link"
-                  ><div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-5.jpg"
-                      alt="монитор"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">
-                      Inspiration has no Borders
-                    </h3>
-                    <p class="list-link__content text">Веб-сайт</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-6.jpg"
-                      alt="открытая книга"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">
-                      Издание Limited Edition
-                    </h3>
-                    <p class="list-link__content text">Дизайн</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-7.jpg"
-                      alt="label tag"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Проект LAB</h3>
-                    <p class="list-link__content text">Маркетинг</p>
-                  </div>
-                </a>
-              </li>
-              <li class="content-list__item">
-                <a href="" class="list-link link">
-                  <div class="list-link__overflow-img">
-                    <img
-                      class="list-link__img"
-                      src="./images/portfolio/img-8.jpg"
-                      alt="notebook"
-                      width="370"
-                      height="294"
-                    />
-                    <div class="list-link__overflow">
-                      <p class="list-link__overflow-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Deserunt mollitia quod assumenda quae ut esse
-                        doloremque. Ullam, veritatis. Repellendus, ad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-link__text">
-                    <h3 class="list-link__subtitle title">Growing Business</h3>
-                    <p class="list-link__content text">Приложение</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
+
+          <button
+            type="button"
+            class="lightbox__button"
+            data-action="close-lightbox"
+          ></button>
         </div>
-      </section>  -->
+      </div>
     </main>
     <footer class="footer">
       <div class="container">
@@ -429,7 +183,7 @@
               </li>
             </ul>
           </div>
-          <div class="form-box">
+          <!-- <div class="form-box">
             <form action="POST" class="footer-form">
               <label for="footer-mail" class="footer-form__label"
                 >Подпишитесь на рассылку</label
@@ -450,9 +204,11 @@
                 <span class="footer-form__btn-text">Подписаться</span>
               </button>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
